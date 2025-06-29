@@ -40,8 +40,8 @@ group = "com.kernelflux.plugin.permguard"
 version = "1.0.0"
 
 gradlePlugin {
-    website = "https://github.com/kernelflux/permguard-plugin"
-    vcsUrl = "https://github.com/kernelflux/permguard-plugin"
+    website = "https://github.com/kernelflux/permguard"
+    vcsUrl = "https://github.com/kernelflux/permguard"
     plugins {
         create("permguardPlugin") {
             id = group.toString()
