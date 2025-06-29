@@ -4,7 +4,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     `kotlin-dsl`
     id("java-library")
-    id("maven-publish")
+    id("com.gradle.plugin-publish") version "1.3.1"
 }
 
 java {
