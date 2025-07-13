@@ -1,10 +1,10 @@
 package com.kernelflux.permguard
 
 enum class ClassNameMaskStrategy {
-    FULL,       // 完整包名+类名
-    SIMPLE,     // 只类名
-    HASH,       // md5 hash
-    CUSTOM_TAG  // 自定义tag
+    FULL,
+    SIMPLE,
+    HASH,
+    CUSTOM_TAG
 }
 
 object PermGuardMaskConfig {
